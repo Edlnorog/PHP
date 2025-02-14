@@ -9,7 +9,7 @@
 <body>
     <header>
         <img src="logo.png" alt="" width= 200px >
-        <h1>Hello, World!</h1>
+        <h1>>Домашняя работа: Hello, World!</h1>
     </header>
 
     <main>
@@ -20,7 +20,7 @@
     </main>
 
     <footer>
-        <h2>Домашняя работа: Hello, World!</h2>
+        <h2</h2>
     </footer>
 </body>
 </html>
