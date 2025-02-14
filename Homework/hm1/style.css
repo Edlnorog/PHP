@@ -1,0 +1,11 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:35vw;
+}
+
+footer{
+    text-align: center;
+}
