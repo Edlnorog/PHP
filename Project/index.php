@@ -20,7 +20,6 @@
     }
 
     $cat2 = new Cat('murka', 'black', 8); // Только если construct настроен
-
     // $cat1 = new Cat();
     // $cat1 -> setName('Barsik');
     // $cat1 -> color = 'grey';
