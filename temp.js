@@ -1,15 +1,27 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
- */
-var searchInsert = function(nums, target) {
+// /**
+//  * @param {number[]} nums
+//  * @return {boolean}
+//  */
+// var containsDuplicate = function(nums) {
+//     if (nums.length <2){
+//         return false;
+//     }
+//     if (new Set(nums).size==nums.length){
+//         return false
+//     }
+//     else{
+//         return true;
+//     }
+// }
 
-
-    for (let i =0; i < nums.length; i++) {
-        if (nums[i]>target){
-            return i-1
-        }
+var containsDuplicate = function(nums) {
+    if (nums.length <2){
+        return false;
     }
-
-};
+    if (new Set(nums).size==nums.length){
+        return false
+    }
+    else{
+        return true;
+    }
+}
