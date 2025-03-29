@@ -68,7 +68,7 @@
 // N15 На обратный слеш \ Дана строка 'a\a abc'. Напишите регулярку, которая заменит строку 'a\a' на '!'.
 
 $string = 'a\a a\a a\\a';
-$pattern = '/a\\\\a/'; // Ищем a\\a
+$pattern = '/a\\\\a/';
 $result = preg_replace($pattern, '!', $string);
 
 echo "Ввод: $string\n";
